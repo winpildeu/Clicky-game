@@ -1,5 +1,9 @@
+html {
+  background: black url("./capcha-bg.JPG") no-repeat left top;
+}
+
 body {
-  background-color: red;
+  /* background-color: red; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
