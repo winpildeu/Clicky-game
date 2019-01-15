@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Korean_Alphabet_giyeok.png/75px-Korean_Alphabet_giyeok.png",
+    "clicked": "false"
+  },
+  {
+    "id": 2,
+    "name": "p",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Korean_Alphabet_pieup.png/75px-Korean_Alphabet_pieup.png",
+    "clicked": "false"
+  },
+  {
+    "id": 3,
+    "name": "n",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Korean_Alphabet_nieun.png/75px-Korean_Alphabet_nieun.png",
+    "clicked": "false"
+  },
+  {
+    "id": 4,
+    "name": "d",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Korean_Alphabet_digeut.png/75px-Korean_Alphabet_digeut.png",
+    "clicked": "false"
+  },
+  {
+    "id": 5,
+    "name": "h",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Korean_Alphabet_hieut.png/75px-Korean_Alphabet_hieut.png",
+    "clicked": "false"
+  },
+  {
+    "id": 6,
+    "name": "r",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Korean_Alphabet_rieul.png/75px-Korean_Alphabet_rieul.png",
+    "clicked": "false"
+  },
+  {
+    "id": 7,
+    "name": "m",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Korean_Alphabet_mieum.png/75px-Korean_Alphabet_mieum.png",
+    "clicked": "false"
+  },
+  {
+    "id": 8,
+    "name": "b",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Korean_Alphabet_bieup.png/75px-Korean_Alphabet_bieup.png",
+    "clicked": "false"
+  },
+  {
+    "id": 9,
+    "name": "silent",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Korean_Alphabet_ieung.png/75px-Korean_Alphabet_ieung.png",
+    "clicked": "false"
+  },
+  {
+    "id": 10,
+    "name": "s",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Korean_Alphabet_siot.png/75px-Korean_Alphabet_siot.png",
+    "clicked": "false"
+  },
+  {
+    "id": 11,
+    "name": "a",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Korean_Alphabet_vowel_a.png/75px-Korean_Alphabet_vowel_a.png",
+    "clicked": "false"
+  },
+  {
+    "id": 12,
+    "name": "j",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Korean_Alphabet_jieut.png/75px-Korean_Alphabet_jieut.png",
+    "clicked": "false"
+  },
+  {
+    "id": 13,
+    "name": "yo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Korean_Alphabet_vowel_yo.png/75px-Korean_Alphabet_vowel_yo.png",
+    "clicked": "false"
+  },
+  {
+    "id": 14,
+    "name": "ch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Korean_Alphabet_chieut.png/75px-Korean_Alphabet_chieut.png",
+    "clicked": "false"
+  },
+  {
+    "id": 15,
+    "name": "k",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Korean_Alphabet_kieuk.png/75px-Korean_Alphabet_kieuk.png",
+    "clicked": "false"
+  },
+  {
+    "id": 16,
+    "name": "t",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Korean_Alphabet_tieut.png/75px-Korean_Alphabet_tieut.png",
+    "clicked": "false"
+  },
+]
