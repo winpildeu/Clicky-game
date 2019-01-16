@@ -3,8 +3,8 @@ import "./style.css";
 
 function Container(props) {
   return (
-    <div className="container bg-light text-white mt-3 p-2 rounded">
-      <h6>Container is here...</h6>
+    <div className="container bg-light mt-3 p-2 rounded border">
+      {/* <h6>Container is here...</h6> */}
       {props.children}
     </div>
   );

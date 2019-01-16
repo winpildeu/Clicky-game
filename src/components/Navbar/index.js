@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar(props) {
   return (
-    <ul className="nav bg-primary text-white justify-content-center p-2 sticky-top shadow">
+    <ul className="nav bg-danger text-white justify-content-center p-2 sticky-top shadow">
       <li className="nav-item">
         <span className="nav-link font-weight-bold">{props.title}</span>
       </li>
