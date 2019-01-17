@@ -5,20 +5,20 @@ import Navbar from "./components/Navbar";
 import Box from "./components/Box"
 import hangul from "./hangul.json";
 
+const backup = hangul;
+const win = 12;
+
 // Functions ===========================================
 
 function findIndex(id, array) {
   let index;
-  // console.log(array);
   // Loops through the hangul array to find the ID
   for (let i = 0; i < array.length; i++) {
-    // console.log(array[i]);
     if (array[i].id === id) {
       index = i;
     }
   }
-
-  console.log(`Index in array: ${index}`);
+  // console.log(`Index in array: ${index}`);
   return index;
 }
 
@@ -35,7 +35,7 @@ function shuffle(a) {
 class App extends React.Component {
   state = {
     hangul,
-    score: 0,
+    score: 10,
     topScore: 0,
     backup: hangul
   };
@@ -48,14 +48,16 @@ class App extends React.Component {
 
     // find the index of the id
     let index = findIndex(id, this.state.hangul);
+    
+    console.log(`Chosen card is: ${hangulCopy[index].clicked}`);
 
     // check if the picture has already been clicked.
     // reset if it has
     if (hangulCopy[index].clicked === "true") {
-      alert("You lost");
+      alert("You lost... Resetting game");
       // reset score, cards and shuffle cards
       scoreCopy = 0;
-      hangulCopy = [...hangul];
+      hangulCopy = [...backup];
     } else {
       // if not, change the 'clicked' state of the found letter
       hangulCopy[index].clicked = "true";
@@ -66,8 +68,17 @@ class App extends React.Component {
         topScoreCopy = scoreCopy;
       }
     }
+
+    // check to see if the player won
+    if (scoreCopy === win) {
+      alert(`You won! Resetting game...`);
+      scoreCopy = 0;
+      hangulCopy = [...backup];
+    }
+
+    // mix the cards in the array
     hangulCopy = shuffle(hangulCopy);
-    
+
     // update the state
     this.setState({ hangul: hangulCopy });
     this.setState({
