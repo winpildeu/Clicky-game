@@ -22,6 +22,13 @@ function findIndex(id, array) {
   return index;
 }
 
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 // React App =============================================
 
@@ -59,7 +66,8 @@ class App extends React.Component {
         topScoreCopy = scoreCopy;
       }
     }
-
+    hangulCopy = shuffle(hangulCopy);
+    
     // update the state
     this.setState({ hangul: hangulCopy });
     this.setState({
