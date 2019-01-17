@@ -6,7 +6,7 @@ import Box from "./components/Box"
 import hangul from "./hangul.json";
 
 const backup = hangul;
-const win = 12;
+const win = 10;
 
 // Functions ===========================================
 
@@ -35,7 +35,7 @@ function shuffle(a) {
 class App extends React.Component {
   state = {
     hangul,
-    score: 10,
+    score: 0,
     topScore: 0,
     backup: hangul
   };
