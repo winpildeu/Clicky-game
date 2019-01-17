@@ -1,7 +1,7 @@
 # Clicky-game
 A simple card memory game made with React
 
-![clicky game image](public/images/clicky1.jpg)
+![clicky game image](public/images/clicky1.JPG)
 
 ## How to Play:
 There are 16 cards randomly displayed on the page. Your goal is to choose 10 different cards and finish the game. 
